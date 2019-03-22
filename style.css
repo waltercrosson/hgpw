@@ -82,7 +82,7 @@ header a:hover{
 /* Showcase */
 #showcase{
   min-height:500px;
-  background:url(img/homesketch.jpg) no-repeat 0 -450px;
+  background:url(img/homesketch.jpg) no-repeat 0 -500px;
   background-size:auto;
   text-align:center;
   color:#0c0c0c;
@@ -110,6 +110,7 @@ header a:hover{
 #newsletter h1{
   float:left;
 }
+
 
 /*
 #newsletter form {
@@ -162,6 +163,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 /* Main-col */
 article#main-col{
 
+
   float:left;
   width:65%;
 }
@@ -177,7 +179,7 @@ ul#services li{
 }
 
 footer{
-  padding:20px;
+  padding:10px;
   margin-top:20px;
   color:#ffffff;
   background-color:#71a1ed;
@@ -203,6 +205,11 @@ footer{
     padding-bottom:20px;
   }
 
+  #main{
+    background:url(img/hosta-garden.jpg);
+
+  }
+
   #showcase h1{
     margin-top:40px;
   }
@@ -215,5 +222,6 @@ footer{
   #newsletter form input[type="email"], .quote input, .quote textarea{
     width:100%;
     margin-bottom:5px;
+
   }
 }
