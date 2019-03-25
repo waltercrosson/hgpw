@@ -23,6 +23,14 @@
       document.getElementById('map'), {zoom: 10, center: hgp});
 
   var marker = new google.maps.Marker({position: hgp, map: map});
+
+  var infoWindow = new google.maps.InfoWindow({
+    content:'<h1>Hosta Garden Perennials</h1>'
+  });
+
+  marker.addListener('click', function(){
+    infoWindow.open(map, marker);
+  });
 }
     </script>
     <!--Load the API from the specified URL
@@ -31,7 +39,7 @@
     * The callback parameter executes the initMap() function
     -->
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDooLUbgbdla9KguM2QinhNt4hFxgTU7-A&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLmD8Tfp8FJdID2EyyZwgzR7eLGDbpasc&callback=initMap">
     </script>
     <h2 style="text-align:center;"><a href="index.html">HOME</h2>
   </body>
