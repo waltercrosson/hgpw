@@ -82,10 +82,10 @@ header a:hover{
 /* Showcase */
 #showcase{
   min-height:500px;
-  background:url(img/homesketch.jpg) no-repeat 0 -500px;
-  background-size:auto;
+  background:url("img/greenhouse-butterfly.jpeg") no-repeat 0 -300px;
+  background-size:1280px 1000px;
   text-align:center;
-  color:#0c0c0c;
+  color:yellow;
   text-shadow:1px 1px #fcfcfc;
 }
 
