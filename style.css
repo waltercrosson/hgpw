@@ -114,7 +114,8 @@ header a:hover{
 
 .map-responsive{
     overflow:hidden;
-    padding-bottom:56.25%;
+    padding-top: 80%
+
     position:relative;
     height:0;
 }
