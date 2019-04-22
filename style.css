@@ -122,7 +122,7 @@ header a:hover{
 .map-responsive iframe{
     left:0;
     top:0;
-    height:100% !important;
+    height:80% !important;
     width:100% !important;
     position:absolute;
 }
@@ -143,6 +143,27 @@ header a:hover{
     height: 100%;
   }
 
+
+.return{
+  margin-top: 600px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.return a{
+  background-color: #71a1ed;
+  color: white;
+  padding: 1em 1em;
+  text-decoration: underline;
+  text-transform: uppercase;
+  border-radius: 20px;
+
+}
+
+.return a:hover{
+  background-color:#706e6d;
+  font-weight: bold;
+}
 
 
 
