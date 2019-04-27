@@ -43,8 +43,9 @@ header #branding{
   float:left;
 }
 
-header #branding h1{
+header #branding h2{
   margin:0;
+  font-size: 2em;
   }
 
 header nav{
@@ -270,7 +271,7 @@ footer{
   color:#ffffff;
   background-color:#71a1ed;
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
 
 }
 
