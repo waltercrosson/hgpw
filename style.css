@@ -24,6 +24,8 @@ header{
   padding-top: 10px;
   min-height: 50px;
   border-bottom:#8e8484 3px solid;
+  position: fixed;
+  width: 100%;
 }
 
 header a{
@@ -62,12 +64,18 @@ header nav{
   color:#ffffff;
 }
 
+.spacer{
+  width: 100%;
+  height: 130px;
+}
+
 .dark{
   padding:15px;
   background:#71a1ed;
   color:#ffffff;
   margin-top:10px;
   margin-bottom:10px;
+
 }
 
 header .highlight, header .current a{
@@ -88,6 +96,8 @@ header a:hover{
   text-align:center;
   color:yellow;
   text-shadow:1px 1px #fcfcfc;
+  padding-top: 100px;
+
 }
 
 #showcase h1{
@@ -112,7 +122,9 @@ header a:hover{
   float:left;
 }
 
-
+h2 a{
+  font-size: 30px;
+}
 .map-responsive{
     overflow:hidden;
     padding-top: 80%
@@ -238,7 +250,7 @@ img {
 aside#sidebar{
   float:right;
   width:30%;
-  margin-top:10px;
+  margin-top:149px;
 }
 
 aside#sidebar .quote input, aside#sidebar .quote textarea{
@@ -262,6 +274,7 @@ ul#services li{
   border: #cccccc solid 1px;
   margin-bottom:5px;
   background:#e6e6e6;
+
 
 }
 
@@ -296,6 +309,8 @@ footer{
 
   #main{
     background:url(img/hosta-garden.jpg);
+
+
 
   }
 
