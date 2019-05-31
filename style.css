@@ -1,3 +1,6 @@
+
+/*
+
 body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
@@ -5,7 +8,7 @@ body{
   background-color:#f4f4f4;
 }
 
-/* Global */
+/* Global
 .container{
   width:80%;
   margin:auto;
@@ -17,7 +20,7 @@ ul{
   padding:0;
 }
 
-/* Header **/
+/* Header
 header{
   background:#a7d9f2;
   color:#ffffff;
@@ -94,7 +97,7 @@ header a:hover{
   font-weight:bold;
 }
 
-/* Showcase */
+/* Showcase
 #showcase{
   min-height:500px;
   background:url("img/greenhouse-butterfly.jpeg") no-repeat 0 -300px;
@@ -116,7 +119,7 @@ header a:hover{
   font-size:20px;
 }
 
-/* Newsletter */
+/* Newsletter
 #newsletter{
   padding:15px;
   color:#ffffff;
@@ -275,7 +278,7 @@ img {
 }
 
 
-/* Boxes */
+/* Boxes
 #boxes{
   margin-top:20px;
 
@@ -298,7 +301,7 @@ img {
 img {
   vertical-align: top;
 }
-/* Sidebar */
+/* Sidebar
 aside#sidebar{
   float:right;
   width:30%;
@@ -311,7 +314,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
   padding:5px;
 }
 
-/* Main-col */
+/* Main-col
 article#main-col{
 
 
@@ -319,7 +322,7 @@ article#main-col{
   width:65%;
 }
 
-/* Services */
+/* Services
 ul#services li{
   list-style: none;
   padding:20px;
@@ -340,7 +343,7 @@ footer{
 
 }
 
-/* Media Queries */
+/* Media Queries
 @media(max-width: 768px){
   header #branding,
   header nav,
@@ -386,3 +389,390 @@ footer{
     margin-bottom:5px;
 
   }
+
+  .spacer{
+  height:63px;
+
+  }
+
+  /* Container holding the image and the text
+  .container {
+    position:relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+
+
+
+  }
+
+  /* Bottom left text
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+  /* Top left text
+  .top-left {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 1em;
+    font-family: Arial;
+    opacity: 0.5;
+  }
+
+  /* Top right text *
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+
+  /* Bottom right text *
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+  /* Centered text *
+  .centered {
+    font-family: cursive;
+    font-size:2.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 60px;
+  }
+
+
+
+  .content{
+
+    background:slategray;
+    position:relative;
+    margin:0 auto;
+    width:85%;
+    padding:5px;
+    font-family:Helvetica;
+    font-size:1.5em;
+  }
+
+
+  .photo_gallery{
+    display:flex;
+
+    width:100%;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap:wrap;
+    background-color:slategray;
+
+
+  }
+
+  .box{
+    height:128px;
+    width:170px;
+    background-color:seagreen;
+    justify-content: space-between;
+    margin:5px;
+
+    margin-bottom:20px;
+
+
+  }
+
+  img{
+    height: 100%;
+    width: 100%;
+    box-shadow: 5px 5px 15px black;
+  }
+
+
+  .image-header{
+    font-size:1em;
+  }
+
+
+  .video{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+*/
+  footer{
+    padding:10px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:black;
+    text-align: center;
+    font-size: 10px;
+
+  }
+
+/*
+  @media screen and (min-width: 601px) {
+    .centered {
+      font-size:60px;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .video {
+
+    }
+  }
+
+*/
+
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:slategray;
+
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+/* Header **/
+header{
+  background:black;
+  color:#ffffff;
+  padding-top: 10px;
+  min-height: 50px;
+  border-bottom:lightgreen 3px solid;
+  position:fixed;
+  z-index:99;
+  width: 100%;
+
+
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size: 16px
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h2{
+  margin:0;
+  font-size: 2em;
+  }
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+.button_1{
+  height:38px;
+  background:#71a1ed;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+header .highlight, header .current a{
+  color:#71a1ed;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:lightgreen;
+  font-weight:bold;
+}
+
+
+.spacer{
+height:63px;
+
+}
+
+.spacer1{
+height:140px;
+
+}
+
+
+
+.dark{
+  font-size:1.5em;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+
+
+
+/* Container holding the image and the text */
+.container {
+  position:relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+
+
+}
+
+
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: 1em;
+  font-family: Arial;
+  opacity: 0.5;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  font-family: cursive;
+  font-size:2.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 60px;
+}
+
+
+
+.content{
+
+  background:slategray;
+  position:relative;
+  margin:0 auto;
+  width:85%;
+  padding:5px;
+  font-family:Helvetica;
+  font-size:1.5em;
+}
+
+
+.photo_gallery{
+  display:flex;
+  width:100%;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap:wrap;
+  background-color:slategray;
+
+
+}
+
+
+
+.photo_gallery2{
+  display:flex;
+  width:100%;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap:wrap;
+  background-color:slategray;
+}
+
+
+
+
+.box{
+  height:128px;
+  width:170px;
+  background-color:seagreen;
+  justify-content: space-between;
+  margin:5px;
+
+  margin-bottom:20px;
+
+
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  box-shadow: 5px 5px 15px black;
+}
+
+
+.image-header{
+  font-size:1em;
+}
+
+
+.video{
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+footer{
+  padding:10px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:black;
+  text-align: center;
+  font-size: 10px;
+
+}
+
+
+@media screen and (min-width: 601px) {
+  .centered {
+    font-size:60px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .video {
+
+  }
+}
